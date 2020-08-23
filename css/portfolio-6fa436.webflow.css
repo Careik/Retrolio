@@ -1179,6 +1179,11 @@ figure {
   margin-bottom: 32px;
 }
 
+.image-12 {
+  margin-top: 32px;
+}
+
+
 .h5.goals-center {
   margin-top: 44px;
   text-align: center;
@@ -3304,6 +3309,11 @@ figure {
   .twitter {
     margin-bottom: 32px;
   }
+
+  .image-12 {
+    margin-top: 24px;
+  }
+
   .h5.goals-center {
     margin-top: 32px;
   }
