@@ -260,7 +260,6 @@ figure {
   padding-top: 112px;
   padding-bottom: 112px;
   padding-left: 0px;
-  border-radius: 0px 8px;
   background-color: #fff;
 }
 
@@ -321,13 +320,13 @@ figure {
   text-decoration: none;
 }
 
-.h2.cs-section {
+.h2.introduction {
   margin-top: 0px;
   margin-bottom: 64px;
   color: #231f20;
 }
 
-.h2.cs-section.white-font {
+.h2.introduction.white-font {
   margin-bottom: 64px;
   color: #fff;
 }
@@ -965,10 +964,10 @@ figure {
 
 .divider {
   height: 6px;
-  margin-right: 64px;
-  margin-bottom: 64px;
-  margin-left: 64px;
-  border-radius: 20px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  border-radius: 0px;
   background-color: #51abb6;
 }
 
@@ -1070,10 +1069,6 @@ figure {
   padding-top: 32px;
   padding-bottom: 0px;
   text-align: center;
-}
-
-.follow-up-container.last-para {
-  padding-bottom: 64px;
 }
 
 .follow-up-container.with-button {
@@ -1179,10 +1174,14 @@ figure {
   margin-bottom: 32px;
 }
 
+.case-study-introduction {
+  margin-top: 112px;
+  margin-bottom: 112px;
+}
+
 .image-12 {
   margin-top: 32px;
 }
-
 
 .h5.goals-center {
   margin-top: 44px;
@@ -2048,7 +2047,7 @@ figure {
     margin-bottom: 24px;
     color: #231f20;
   }
-  .h2.cs-section.white-font {
+  .h2.introduction.white-font {
     line-height: 60px;
   }
   .h2.no-underline {
@@ -2494,10 +2493,10 @@ figure {
     margin-left: 0px;
     font-size: 31px;
   }
-  .h2.cs-section {
+  .h2.introduction {
     margin-bottom: 44px;
   }
-  .h2.cs-section.white-font {
+  .h2.introduction.white-font {
     margin-right: 32px;
     margin-bottom: 44px;
     margin-left: 32px;
@@ -2691,9 +2690,7 @@ figure {
     padding: 12px 32px;
   }
   .divider {
-    margin-right: 32px;
     margin-bottom: 32px;
-    margin-left: 32px;
   }
   .grid {
     grid-column-gap: 106px;
@@ -2771,6 +2768,10 @@ figure {
   }
   .reddit {
     margin-bottom: 32px;
+  }
+  .case-study-introduction {
+    margin-top: 64px;
+    margin-bottom: 64px;
   }
   .h5 {
     font-size: 16px;
@@ -3030,10 +3031,10 @@ figure {
     font-size: 20px;
     line-height: 20px;
   }
-  .h2.cs-section {
+  .h2.introduction {
     margin-bottom: 44px;
   }
-  .h2.cs-section.white-font {
+  .h2.introduction.white-font {
     margin-bottom: 44px;
   }
   .case-study-button {
@@ -3228,10 +3229,6 @@ figure {
     padding-right: 16px;
     padding-left: 16px;
   }
-  .divider {
-    margin-right: 16px;
-    margin-left: 16px;
-  }
   .grid.improvement-grid {
     grid-row-gap: 32px;
   }
@@ -3309,11 +3306,9 @@ figure {
   .twitter {
     margin-bottom: 32px;
   }
-
   .image-12 {
     margin-top: 24px;
   }
-
   .h5.goals-center {
     margin-top: 32px;
   }
